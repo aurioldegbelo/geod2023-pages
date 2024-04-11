@@ -62,7 +62,7 @@
         {
             // use the gradio api to get answers related to the document
             console.log("Processing the query...", query)
-            let gpt_api = "https://aurioldegbelo-gpt-space.hf.space/run/predict"
+            let gpt_api = "https://aurioldegbelo-gpt-space.hf.space/api/predict"
             const response = await fetch(gpt_api, 
             {
                 method: "POST",
